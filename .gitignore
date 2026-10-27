@@ -1,0 +1,17 @@
+﻿.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.git/
+.vscode/
+
+# Local update packages and backups
+P1_Traffic_Command_Centre.zip
+P1_*_update.zip
+
+# Local backups and temporary test scripts
+run_s14_13_backup.py
+test_s14_14.py

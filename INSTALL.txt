@@ -1,0 +1,14 @@
+P1 FEATURES 8, 9, 10 UPDATE
+
+1. Stop the current dashboard with Ctrl+C.
+2. Extract this ZIP into C:\Users\reshm\Downloads\P1, merging folders and replacing dashboard\dashboard.py.
+3. Restart from PowerShell:
+   cd C:\Users\reshm\Downloads\P1
+   & $py .\run.py
+4. Refresh the browser with Ctrl+F5.
+
+FEATURE 8: Rolling in-memory performance snapshots and trend comparisons during this dashboard run.
+FEATURE 9: Demo closed-loop Detect -> Analyze -> Decide -> Act -> Measure with before/after comparison. The response is simulated, not field validated.
+FEATURE 10: 5-30 minute density projection using a damped linear trend from recent simulated snapshots. It is a baseline, not a trained/validated forecasting model.
+
+The update uses the existing dashboard and preserves existing S14.13 video analysis. City-wide traffic metrics are simulated; no real traffic signals are controlled. History resets when the dashboard process restarts.
