@@ -1,0 +1,24 @@
+﻿.venv/
+venv/
+__pycache__/
+*.py[cod]
+.git/
+.vscode/
+.env
+.env.*
+!.env.example
+*.zip
+.signature.p7s
+"Docker Desktop Installer.exe"
+Microsoft.WSL.Containers.3.0.3.nupkg
+Microsoft.WSL.Containers.nuspec
+[Content_Types].xml
+/_rels/
+/build/
+/cmake/
+/include/
+/lib/
+/manifests/
+/package/
+/runtimes/
+/winmd/
